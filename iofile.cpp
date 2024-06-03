@@ -17,3 +17,8 @@ int main(){
         cout << "-";
         //mendapatkan setiap karakter - dalam satu baris
         getline(cin, baris);
+        //loop berenti jika memasukan huruf q
+        if (baris == "q") break;
+        //menulis dan memasukan nilai dari 'baris' ke dalam file
+        outfile << baris << endl;
+    }
