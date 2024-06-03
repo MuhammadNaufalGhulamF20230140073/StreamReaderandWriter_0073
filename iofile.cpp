@@ -7,3 +7,6 @@ int main(){
     string baris;
     //membuka file untuk menulis
     ofstream outfile;
+    //menunjuk nama file
+    outfile.open("contohFile.txt");
+
